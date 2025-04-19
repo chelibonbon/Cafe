@@ -1,0 +1,323 @@
+CRITICAL - 2025-02-18 07:44:28 --> Cannot redeclare App\Controllers\Auth::__construct()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-02-18 07:55:10 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\Users\LENOVO\Videos\kasir\system\Model.php on line 728
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\Users\LENOVO\Videos\kasir\app\Controllers\Auth.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#7 {main}
+CRITICAL - 2025-02-18 07:56:24 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\Users\LENOVO\Videos\kasir\system\Model.php on line 728
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\Users\LENOVO\Videos\kasir\app\Controllers\Auth.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#7 {main}
+CRITICAL - 2025-02-18 07:56:25 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\Users\LENOVO\Videos\kasir\system\Model.php on line 728
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\Users\LENOVO\Videos\kasir\app\Controllers\Auth.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#7 {main}
+CRITICAL - 2025-02-18 07:58:23 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\Users\LENOVO\Videos\kasir\system\Model.php on line 728
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\Users\LENOVO\Videos\kasir\app\Controllers\Auth.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#7 {main}
+CRITICAL - 2025-02-18 07:59:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\Users\LENOVO\Videos\kasir\system\Model.php on line 728
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\Users\LENOVO\Videos\kasir\app\Controllers\Auth.php(38): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#7 {main}
+CRITICAL - 2025-02-18 07:59:51 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\Users\LENOVO\Videos\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/aksi_login')
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth/aksi_login')
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#6 {main}
+CRITICAL - 2025-02-18 08:00:14 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:01:33 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:01:53 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:16:45 --> Call to a member function where() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:16:56 --> Call to a member function where() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:17:23 --> Call to a member function where() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:17:33 --> Call to a member function where() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->processLogin()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:33:35 --> Class 'App\Models\M_kasir' not found
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:34:53 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:35:00 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:35:04 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:35:28 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:36:19 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:37:27 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:41:26 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Videos\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Videos\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\M_ka...')
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2025-02-18 08:41:48 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:43:39 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:45:48 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:46:02 --> Call to a member function where() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:48:32 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:48:54 --> Call to a member function getWhere() on null
+#0 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#5 {main}
+CRITICAL - 2025-02-18 08:50:20 --> You must set the database table to be used with your query.
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\LENOVO\Videos\kasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(30): CodeIgniter\Model->__call('getWhere', Array)
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-18 08:54:36 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Users\LENOVO\Videos\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Videos\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(24): spl_autoload_call('App\\Models\\M_ka...')
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2025-02-18 08:54:50 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, array given, called in C:\Users\LENOVO\Videos\kasir\system\Model.php on line 728
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(728): CodeIgniter\Database\BaseBuilder->getWhere('user', Array)
+#1 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(30): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#7 {main}
+CRITICAL - 2025-02-18 08:59:33 --> You must set the database table to be used with your query.
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\LENOVO\Videos\kasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(30): CodeIgniter\Model->__call('where', Array)
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-18 09:00:27 --> You must set the database table to be used with your query.
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\LENOVO\Videos\kasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(31): CodeIgniter\Model->__call('where', Array)
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-18 09:00:31 --> You must set the database table to be used with your query.
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\LENOVO\Videos\kasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(31): CodeIgniter\Model->__call('where', Array)
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-18 18:08:49 --> You must set the database table to be used with your query.
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\LENOVO\Videos\kasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(31): CodeIgniter\Model->__call('where', Array)
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-18 18:14:42 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Videos\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/aksi_login')
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/aksi_login')
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#6 {main}
+CRITICAL - 2025-02-18 18:19:29 --> You must set the database table to be used with your query.
+#0 C:\Users\LENOVO\Videos\kasir\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\LENOVO\Videos\kasir\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(31): CodeIgniter\Model->__call('getWhere', Array)
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-18 18:27:26 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\Users\LENOVO\Videos\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#6 {main}
+CRITICAL - 2025-02-18 19:18:31 --> Invalid file: dashboard.php
+#0 C:\Users\LENOVO\Videos\kasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\Users\LENOVO\Videos\kasir\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(56): view('dashboard')
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-18 19:41:49 --> Invalid file: layout_container.php
+#0 C:\Users\LENOVO\Videos\kasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout_containe...')
+#1 C:\Users\LENOVO\Videos\kasir\system\Common.php(1089): CodeIgniter\View\View->render('layout_containe...', Array, true)
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Home.php(57): view('layout_containe...')
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}

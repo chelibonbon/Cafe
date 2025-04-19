@@ -1,0 +1,30 @@
+CRITICAL - 2025-02-26 19:48:55 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('009')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-02-26 19:50:19 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('009')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-02-26 19:50:37 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('009')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}

@@ -1,0 +1,90 @@
+ERROR - 2025-04-15 01:04:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-15 01:04:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\header.php(4): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(22): view('header')
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#12 {main}
+ERROR - 2025-04-15 01:04:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-15 01:04:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\header.php(4): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(22): view('header')
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#12 {main}
+ERROR - 2025-04-15 21:06:58 --> Table 'cafe.pengaturan_app' doesn't exist
+CRITICAL - 2025-04-15 21:06:58 --> Call to a member function getRow() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(22): view('header')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#9 {main}
+ERROR - 2025-04-15 21:07:00 --> Table 'cafe.pengaturan_app' doesn't exist
+CRITICAL - 2025-04-15 21:07:00 --> Call to a member function getRow() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(22): view('header')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#9 {main}
+ERROR - 2025-04-15 21:07:02 --> Table 'cafe.pengaturan_app' doesn't exist
+CRITICAL - 2025-04-15 21:07:02 --> Call to a member function getRow() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(22): view('header')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#9 {main}
+ERROR - 2025-04-15 22:43:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-15 22:43:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\header.php(4): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(57): view('header')
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#12 {main}

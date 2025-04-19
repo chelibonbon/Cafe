@@ -1,0 +1,329 @@
+CRITICAL - 2025-03-29 10:43:26 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset_password()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 10:44:38 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_reset_password()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 10:46:25 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->update_password()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:21 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:25 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:26 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:28 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:29 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:30 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:31 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:33 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:34 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:35 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:36 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:37 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:38 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:39 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:41 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:42 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:11:57 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:13:36 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:13:37 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:13:38 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:18:53 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:18:58 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:19:00 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:19:01 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:24:13 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:24:15 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:24:16 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:24:17 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:24:18 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:24:19 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:24:20 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:26 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:28 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:29 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:30 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:31 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:32 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:33 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:35 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:36 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:37 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:38 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:39 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-29 05:27:40 --> Call to a member function post() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}

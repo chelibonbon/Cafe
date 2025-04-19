@@ -1,0 +1,521 @@
+CRITICAL - 2025-03-10 08:59:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(325): App\Models\M_kasir->tampil_active('barang', 'id_barang')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 09:03:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(326): App\Models\M_kasir->tampil_active('barang', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 09:03:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(326): App\Models\M_kasir->tampil_active('barang', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 09:07:14 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(323): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 09:07:31 --> Cannot redeclare App\Models\M_kasir::soft_delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-10 09:09:39 --> Cannot redeclare App\Models\M_kasir::restore()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-10 09:11:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(325): App\Models\M_kasir->tampil_active('barang')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 09:12:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(325): App\Models\M_kasir->tampil_active('barang')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 09:14:54 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_barang', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(330): view('tabel_barang', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 09:15:21 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_barang', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(330): view('tabel_barang', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 09:15:37 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_barang', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(330): view('tabel_barang', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 09:16:22 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_barang', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(330): view('tabel_barang', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 09:16:35 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_barang', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(330): view('tabel_barang', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 09:52:29 --> Too few arguments to function App\Models\M_kasir::tampil_active(), 1 passed in G:\My Drive\web\kasir\kasir\app\Controllers\Home.php on line 326 and at least 2 expected
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(326): App\Models\M_kasir->tampil_active('barang')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 10:33:48 --> Call to a member function delete() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(392): App\Models\M_kasir->hard_delete('11')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->delete_permanently('11')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 10:41:32 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_user', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(241): view('tabel_user', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 10:42:31 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_user', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(241): view('tabel_user', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+ERROR - 2025-03-10 10:46:10 --> Unknown column 'DESC' in 'where clause'
+CRITICAL - 2025-03-10 10:46:10 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(240): App\Models\M_kasir->tampil_active('user', 'DESC')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-10 10:47:49 --> Unknown column 'DESC' in 'where clause'
+CRITICAL - 2025-03-10 10:47:49 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(240): App\Models\M_kasir->tampil_active_user('user', 'DESC')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 11:00:59 --> syntax error, unexpected '}', expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(326): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 11:20:44 --> Call to undefined method App\Models\M_kasir::tampil_active_user
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(240): CodeIgniter\Model->__call('tampil_active_u...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-10 11:30:01 --> Unknown column 'DESC' in 'order clause'
+CRITICAL - 2025-03-10 11:30:01 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(240): App\Models\M_kasir->tampil_active_no_sort('user', 'id_user', Array, 'DESC')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-10 11:33:52 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2025-03-10 11:33:52 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(239): App\Models\M_kasir->tampil_active('user', 'id_user', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 11:37:38 --> Cannot redeclare App\Models\M_kasir::get_deleted_items_no_sort()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-10 11:38:34 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_user', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(246): view('tabel_user', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 11:41:08 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_user', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(246): view('tabel_user', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 11:43:08 --> syntax error, unexpected end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('tabel_user', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(246): view('tabel_user', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_user()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-10 12:04:03 --> Call to undefined method App\Models\M_kasir::get_deleted_kasir
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): CodeIgniter\Model->__call('get_deleted_kas...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:04:42 --> Call to undefined method App\Models\M_kasir::get_deleted_kasir
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): CodeIgniter\Model->__call('get_deleted_kas...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:06:31 --> Call to undefined method App\Models\M_kasir::get_deleted_kasir
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): CodeIgniter\Model->__call('get_deleted_kas...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:08:22 --> Call to undefined method App\Models\M_kasir::get_deleted_kasir
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): CodeIgniter\Model->__call('get_deleted_kas...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:08:27 --> Call to undefined method App\Models\M_kasir::get_deleted_kasir
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): CodeIgniter\Model->__call('get_deleted_kas...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:08:47 --> Call to undefined method App\Models\M_kasir::get_deleted_kasir
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): CodeIgniter\Model->__call('get_deleted_kas...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:09:15 --> Call to undefined method App\Models\M_kasir::get_deleted_kasir
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): CodeIgniter\Model->__call('get_deleted_kas...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:10:49 --> Too few arguments to function App\Models\M_kasir::get_deleted_kasir(), 0 passed in G:\My Drive\web\kasir\kasir\app\Controllers\Home.php on line 134 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(134): App\Models\M_kasir->get_deleted_kasir()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_kasir()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 12:33:51 --> syntax error, unexpected 'private' (T_PRIVATE), expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(36): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->viewLogs()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 12:35:04 --> syntax error, unexpected 'private' (T_PRIVATE), expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(36): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->viewLogs()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 12:35:24 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(36): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->viewLogs()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 12:52:15 --> syntax error, unexpected ')', expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(54): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 12:52:48 --> syntax error, unexpected ')', expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(54): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 12:53:58 --> syntax error, unexpected '}', expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(54): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 12:54:29 --> Call to a member function insertLog() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-10 13:06:29 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/view_logs')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/view_logs')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 13:07:48 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/view_logs')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/view_logs')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 13:07:54 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 13:08:01 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 13:08:20 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 13:08:33 --> Call to a member function insertLog() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(830): App\Controllers\Home->_remap('login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-10 13:09:47 --> Cannot redeclare App\Models\M_kasir::getWhere()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-03-10 13:10:09 --> Call to a member function insertLog() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(830): App\Controllers\Home->_remap('login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-10 13:22:18 --> Call to a member function insertLog() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-10 13:22:39 --> Call to a member function insertLog() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-10 20:19:55 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in G:\My Drive\web\kasir\kasir\app\Controllers\Home.php on line 16
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(16): CodeIgniter\BaseModel->findAll('log_activity')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 20:21:43 --> Call to a member function getAllLogs() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-10 20:52:12 --> Call to undefined method App\Models\M_kasir::getAllLogs
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(91): CodeIgniter\Model->__call('getAllLogs', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 20:55:06 --> Call to undefined method App\Models\M_kasir::getNamaUser
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(156): CodeIgniter\Model->__call('getNamaUser', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->logout()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 20:59:11 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(15): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-10 20:59:23 --> Call to undefined method App\Models\M_kasir::getNamaUser
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(156): CodeIgniter\Model->__call('getNamaUser', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->logout()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 20:59:28 --> Call to undefined method App\Models\M_kasir::getNamaUser
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(156): CodeIgniter\Model->__call('getNamaUser', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->logout()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 21:22:27 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 21:23:10 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-10 21:23:22 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}

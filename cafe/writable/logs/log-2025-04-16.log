@@ -1,0 +1,274 @@
+CRITICAL - 2025-04-16 01:09:55 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 13:29:32 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(123): App\Models\M_kasir->insertLog('Failed login at...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-16 13:29:42 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(123): App\Models\M_kasir->insertLog('Failed login at...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-16 13:30:03 --> file_get_contents(https://api.ipify.org): failed to open stream: A socket operation was attempted to an unreachable network.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(123): App\Models\M_kasir->insertLog('Failed login at...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-16 13:30:21 --> file_get_contents(): SSL: The operation completed successfully.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(123): App\Models\M_kasir->insertLog('Failed login at...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+ERROR - 2025-04-16 13:30:46 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:31:05 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:31:29 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:34:58 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:35:45 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:35:50 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:38:00 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:38:40 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:38:41 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:44:34 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 13:44:44 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 01:48:48 --> Column 'nama_user' cannot be null
+ERROR - 2025-04-16 07:42:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-16 07:42:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\header.php(4): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(56): view('header')
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#12 {main}
+ERROR - 2025-04-16 07:43:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-16 07:43:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\header.php(4): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(56): view('header')
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#12 {main}
+ERROR - 2025-04-16 07:56:16 --> Column 'nama_user' cannot be null
+ERROR - 2025-04-16 07:57:45 --> Column 'nama_user' cannot be null
+ERROR - 2025-04-16 20:01:16 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:01:30 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:01:31 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:03:57 --> Unknown column 'ip_address' in 'field list'
+CRITICAL - 2025-04-16 08:36:21 --> Call to a member function getWhere() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_registrasi()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+ERROR - 2025-04-16 20:38:55 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:38:59 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:00 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:15 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:30 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:31 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:36 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:48 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:48 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:53:50 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:54:15 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:54:37 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:54:37 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-16 20:55:03 --> Unknown column 'ip_address' in 'field list'
+CRITICAL - 2025-04-16 20:55:26 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(140): App\Models\M_kasir->insertLog('Lumi successful...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-16 20:55:53 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(345): App\Models\M_kasir->insertLog('Lumi Visited da...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-16 20:55:58 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(345): App\Models\M_kasir->insertLog('Lumi Visited da...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-16 20:56:33 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 338, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(345): App\Models\M_kasir->insertLog('Lumi Visited da...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-16 08:57:09 --> Call to undefined method App\Models\M_kasir::insertLog
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(345): CodeIgniter\Model->__call('insertLog', Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 08:57:32 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/aksi_login')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/aksi_login')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 08:58:21 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/aksi_login')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/aksi_login')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:03:14 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/aksi_login')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/aksi_login')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:03:16 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:03:20 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:04:09 --> Call to undefined method App\Models\M_kasir::insertLog
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(124): CodeIgniter\Model->__call('insertLog', Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:04:51 --> Call to undefined method App\Models\M_kasir::insertLog
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(329): CodeIgniter\Model->__call('insertLog', Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:05:47 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:06:10 --> Call to undefined method App\Models\M_kasir::insertLog
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(138): CodeIgniter\Model->__call('insertLog', Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->logout()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-16 09:12:20 --> Call to a member function is() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(62): view('login')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#9 {main}
+CRITICAL - 2025-04-16 10:35:45 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}
+CRITICAL - 2025-04-16 10:36:08 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}

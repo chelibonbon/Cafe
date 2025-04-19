@@ -1,0 +1,183 @@
+ERROR - 2025-03-12 10:46:18 --> Column 'id_kasir' cannot be null
+ERROR - 2025-03-12 10:46:18 --> Column 'id_kasir' cannot be null
+ERROR - 2025-03-12 10:46:23 --> Column 'id_kasir' cannot be null
+ERROR - 2025-03-12 10:46:23 --> Column 'id_kasir' cannot be null
+CRITICAL - 2025-03-12 13:26:01 --> Call to a member function cacheOff() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota('82')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 13:26:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::cache_off()
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota('82')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 13:26:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::cache_off()
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota('82')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+ERROR - 2025-03-12 01:43:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `nota`.*, `kasir`.*, `barang`.*
+FROM `transaksi`
+LEFT JOIN `nota` ON `transa' at line 1
+ERROR - 2025-03-12 01:44:33 --> Unknown column 'transaksi.total' in 'field list'
+ERROR - 2025-03-12 01:45:29 --> Unknown column 'barang.harga' in 'field list'
+CRITICAL - 2025-03-12 01:48:45 --> syntax error, unexpected 'id_barang' (T_STRING), expecting ')'
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(15): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+ERROR - 2025-03-12 01:51:29 --> Unknown column 'kasir.nama' in 'field list'
+CRITICAL - 2025-03-12 01:51:30 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(795): App\Models\M_kasir->transaksi_filter('2025-03-11 00:0...', '2025-03-12 23:5...', 'transaksi.tangg...')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-12 04:56:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-03-12 04:56:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\web\kasir\kasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\web\kasir\kasir\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(63): App\Models\M_kasir->getWhere('user', Array)
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+ERROR - 2025-03-12 05:07:47 --> Unknown column 'id_kasir' in 'where clause'
+CRITICAL - 2025-03-12 05:07:47 --> Call to a member function getFirstRow() on bool
+#0 G:\My Drive\web\kasir\kasir\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(635): CodeIgniter\BaseModel->first()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->transaksi()
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#7 {main}
+ERROR - 2025-03-12 05:07:52 --> Unknown column 'id_kasir' in 'where clause'
+CRITICAL - 2025-03-12 05:07:52 --> Call to a member function getFirstRow() on bool
+#0 G:\My Drive\web\kasir\kasir\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(635): CodeIgniter\BaseModel->first()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->transaksi()
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#7 {main}
+ERROR - 2025-03-12 17:29:12 --> Column 'id_kasir' cannot be null
+ERROR - 2025-03-12 17:29:12 --> Column 'id_kasir' cannot be null
+CRITICAL - 2025-03-12 17:38:40 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 17:38:49 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 17:38:56 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 17:38:58 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 17:38:59 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 17:39:00 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-12 17:39:01 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->processTransaction()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+ERROR - 2025-03-12 06:05:10 --> Unknown column 'id_kasir' in 'where clause'
+CRITICAL - 2025-03-12 06:05:10 --> Call to a member function getFirstRow() on bool
+#0 G:\My Drive\web\kasir\kasir\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(650): CodeIgniter\BaseModel->first()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->transaksi()
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#7 {main}
+CRITICAL - 2025-03-12 06:05:58 --> syntax error, unexpected ']', expecting ')'
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/transaksi')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/transaksi')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-12 06:06:17 --> Too few arguments to function App\Models\M_kasir::getWhere(), 1 passed in G:\My Drive\web\kasir\kasir\app\Controllers\Home.php on line 651 and exactly 2 expected
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(651): App\Models\M_kasir->getWhere('kasir')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-12 06:43:22 --> Unknown column 'kasir.nama' in 'field list'
+CRITICAL - 2025-03-12 06:43:23 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(826): App\Models\M_kasir->transaksi_filter('2025-03-11 00:0...', '2025-03-12 23:5...', 'transaksi.tangg...')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-12 06:44:59 --> Unknown column 'nota.total' in 'field list'
+ERROR - 2025-03-12 06:45:58 --> Unknown column 'barang.harga' in 'field list'
+ERROR - 2025-03-12 06:50:11 --> Unknown column 'kasir.nama' in 'field list'
+CRITICAL - 2025-03-12 09:29:59 --> syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/log_activi...')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/log_activi...')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-12 21:37:34 --> Duplicate entry 'ka@sir' for key 'username'

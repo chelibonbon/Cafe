@@ -1,0 +1,271 @@
+CRITICAL - 2025-03-01 04:19:14 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-01 04:20:42 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-01 04:20:52 --> syntax error, unexpected 'endif' (T_ENDIF)
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-01 04:21:31 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-01 04:46:47 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php on line 45
+#0 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(45): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(463): App\Models\M_kasir->join1('transaksi', 'nota', 'kasir', 'barang', 'transaksi.nomor...', 'transaksi.id_ka...', 'transaksi.kode_...', Array)
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#7 {main}
+CRITICAL - 2025-03-01 04:47:13 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php on line 45
+#0 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(45): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(463): App\Models\M_kasir->join1('transaksi', 'nota', 'kasir', 'barang', 'transaksi.nomor...', 'transaksi.id_ka...', 'transaksi.kode_...', Array)
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#7 {main}
+CRITICAL - 2025-03-01 04:57:02 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php on line 46
+#0 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(46): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'desc')
+#1 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(464): App\Models\M_kasir->join1('transaksi', 'nota', 'kasir', 'barang', 'transaksi.nomor...', 'transaksi.id_ka...', 'transaksi.kode_...', Array)
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#7 {main}
+ERROR - 2025-03-01 06:03:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)
+ORDER BY `transaksi`.`tanggal` DESC' at line 7
+CRITICAL - 2025-03-01 06:03:14 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(464): App\Models\M_kasir->join1('transaksi', 'nota', 'kasir', 'barang', 'transaksi.nomor...', 'transaksi.id_ka...', 'transaksi.kode_...', 'id_transaksi', '002')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 06:14:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)
+ORDER BY `id_transaksi` DESC' at line 7
+CRITICAL - 2025-03-01 06:14:27 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(464): App\Models\M_kasir->join1('transaksi', 'nota', 'kasir', 'barang', 'transaksi.nomor...', 'transaksi.id_ka...', 'transaksi.kode_...', 'id_transaksi', '002')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 06:19:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)
+ORDER BY `id_transaksi` DESC' at line 7
+CRITICAL - 2025-03-01 06:19:19 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(464): App\Models\M_kasir->join1('transaksi', 'nota', 'kasir', 'barang', 'transaksi.nomor...', 'transaksi.id_ka...', 'transaksi.kode_...', 'id_transaksi', '002')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-01 06:25:33 --> syntax error, unexpected 'date_default_timezone_set' (T_STRING), expecting ';'
+#0 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\web...')
+#1 G:\My Drive\web\kasir\kasir\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_ka...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_ka...')
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(460): spl_autoload_call('App\\Models\\M_ka...')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('002')
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-01 07:14:55 --> Argument 2 passed to view() must be of the type array, null given, called in G:\My Drive\web\kasir\kasir\app\Controllers\Home.php on line 475
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(475): view('header', NULL)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->laporan_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 07:18:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL
+ORDER BY `id_transaksi` DESC' at line 6
+CRITICAL - 2025-03-01 07:18:12 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(486): App\Models\M_kasir->transaksi_filter('tanggal >=', 'tanggal <=', NULL, NULL, 'id_transaksi')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-01 07:20:14 --> Too few arguments to function App\Controllers\Home::excel_transaksi(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 07:21:25 --> Too few arguments to function App\Controllers\Home::excel_transaksi(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 07:21:46 --> Too few arguments to function App\Controllers\Home::excel_transaksi(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+ERROR - 2025-03-01 07:22:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL
+ORDER BY `id_transaksi` DESC' at line 6
+CRITICAL - 2025-03-01 07:22:28 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(486): App\Models\M_kasir->transaksi_filter('tanggal >=', 'tanggal <=', NULL, NULL, 'id_transaksi')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 07:25:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL
+ORDER BY `id_transaksi` DESC' at line 6
+CRITICAL - 2025-03-01 07:25:54 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(486): App\Models\M_kasir->transaksi_filter('tanggal >=', 'tanggal <=', NULL, NULL, 'id_transaksi')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 07:26:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL
+ORDER BY `id_transaksi` DESC' at line 6
+CRITICAL - 2025-03-01 07:26:00 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(486): App\Models\M_kasir->transaksi_filter('tanggal >=', 'tanggal <=', NULL, NULL, 'id_transaksi')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 07:27:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `transaksi`.`tanggal` < IS NULL
+ORDER BY `transaksi`.`tanggal` DESC' at line 6
+CRITICAL - 2025-03-01 07:27:54 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(486): App\Models\M_kasir->transaksi_filter(NULL, NULL, 'transaksi.tangg...')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 07:54:17 --> Column 'tanggal' in where clause is ambiguous
+CRITICAL - 2025-03-01 07:54:17 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(486): App\Models\M_kasir->transaksi_filter('tanggal >=', 'tanggal <=', '2025-02-01', '2025-03-31', 'id_transaksi')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 07:56:08 --> Column 'tanggal' in where clause is ambiguous
+CRITICAL - 2025-03-01 07:56:08 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(486): App\Models\M_kasir->transaksi_filter('tanggal >=', 'tanggal <=', '2025-02-01', '2025-03-31', 'transaksi.id_tr...')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-01 07:58:12 --> Column 'tanggal' in where clause is ambiguous
+ERROR - 2025-03-01 07:58:25 --> Column 'tanggal' in where clause is ambiguous
+CRITICAL - 2025-03-01 07:59:24 --> Invalid file: excel_bayar.php
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('excel_bayar.php')
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('excel_bayar', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(489): view('excel_bayar', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->excel_transaksi()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-01 08:24:09 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 08:25:50 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 08:26:26 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 08:26:57 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 08:26:59 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 08:27:25 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-01 08:27:36 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}

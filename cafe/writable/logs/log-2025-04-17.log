@@ -1,0 +1,343 @@
+CRITICAL - 2025-04-17 00:23:54 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}
+ERROR - 2025-04-17 00:37:18 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-17 00:37:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\login.php(4): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(67): view('login', Array)
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#12 {main}
+ERROR - 2025-04-17 00:38:19 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-17 00:38:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\login.php(4): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(67): view('login', Array)
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#12 {main}
+CRITICAL - 2025-04-17 00:38:52 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}
+CRITICAL - 2025-04-17 07:11:13 --> Call to undefined method App\Models\M_kasir::insertLog
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(745): CodeIgniter\Model->__call('insertLog', Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->simpan_edit_user()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 19:18:07 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:18:15 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:18:22 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:18:32 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:18:38 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:18:42 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:18:51 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:19:22 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:19:44 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:19:45 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:20:23 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:20:23 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:20:29 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:20:29 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:20:36 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:20:45 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:40:26 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:43:13 --> Unknown column 'ip_address' in 'field list'
+CRITICAL - 2025-04-17 07:43:26 --> Invalid file: edit_kategori.php
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_kategori.p...')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('edit_kategori', Array, true)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(885): view('edit_kategori', Array)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->edit_kategori('1')
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+ERROR - 2025-04-17 19:46:26 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:46:31 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:46:44 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:47:01 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:47:06 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 19:47:10 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-17 08:15:27 --> Table 'cafe.transaksi' doesn't exist
+CRITICAL - 2025-04-17 08:15:27 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1132): App\Models\M_kasir->tampil('transaksi', 'id_transaksi')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_transaksi()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-17 09:10:15 --> Invalid argument supplied for foreach()
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\tambah_barang.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\WEB APP DARI...', 42, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barang.p...', Array, true)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): view('tambah_barang.p...')
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#10 {main}
+CRITICAL - 2025-04-17 09:10:22 --> Invalid argument supplied for foreach()
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\tambah_barang.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\WEB APP DARI...', 42, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barang.p...', Array, true)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): view('tambah_barang.p...')
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#10 {main}
+ERROR - 2025-04-17 09:13:29 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:13:29 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:13:31 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:13:31 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:14:41 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:14:41 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:15:22 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:15:22 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:15:23 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:15:23 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:15:24 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:15:24 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:15:24 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:15:24 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:15:25 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:15:25 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 09:15:25 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 09:15:25 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(962): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 20:48:00 --> Unknown column 'barang' in 'where clause'
+CRITICAL - 2025-04-17 20:48:00 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(924): App\Models\M_kasir->join_kasir_user('barang', 'id_barang', Array, 'id_barang', 'DESC')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 20:48:11 --> Unknown column 'barang' in 'where clause'
+CRITICAL - 2025-04-17 20:48:11 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(924): App\Models\M_kasir->join_kasir_user('barang', 'id_barang', Array, 'id_barang', 'DESC')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 20:50:10 --> Unknown column 'barang' in 'where clause'
+CRITICAL - 2025-04-17 20:50:10 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(924): App\Models\M_kasir->join_barang_kategori('barang', 'id_barang', Array, 'id_barang', 'DESC')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 20:50:11 --> Unknown column 'barang' in 'where clause'
+CRITICAL - 2025-04-17 20:50:11 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(924): App\Models\M_kasir->join_barang_kategori('barang', 'id_barang', Array, 'id_barang', 'DESC')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 20:50:48 --> Unknown column 'barang' in 'where clause'
+CRITICAL - 2025-04-17 20:50:48 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(924): App\Models\M_kasir->join_barang_kategori('barang', 'id_barang', Array, 'id_barang', 'DESC')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 20:53:55 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 20:53:55 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(963): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 21:00:22 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 21:00:22 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(963): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 21:00:23 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 21:00:23 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(963): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 21:59:13 --> Unknown column 'id_barang' in 'order clause'
+CRITICAL - 2025-04-17 21:59:13 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(963): App\Models\M_kasir->tampil('kategori', 'id_barang')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-17 22:05:54 --> Invalid argument supplied for foreach()
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\tambah_barang.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\WEB APP DARI...', 42, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barang.p...', Array, true)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(966): view('tambah_barang.p...', Array)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#10 {main}
+CRITICAL - 2025-04-17 22:08:35 --> Invalid argument supplied for foreach()
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\tambah_barang.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\WEB APP DARI...', 42, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barang.p...', Array, true)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(966): view('tambah_barang.p...', Array)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tambah_barang()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#10 {main}
+ERROR - 2025-04-17 23:10:47 --> Table 'cafe.transaksi' doesn't exist
+CRITICAL - 2025-04-17 23:10:47 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1153): App\Models\M_kasir->tampil('transaksi', 'id_transaksi')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_transaksi()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-17 23:12:10 --> Table 'cafe.transaksi' doesn't exist
+CRITICAL - 2025-04-17 23:12:10 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1153): App\Models\M_kasir->tampil('transaksi', 'id_transaksi')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_transaksi()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-17 23:14:53 --> Invalid file: tabel_pemesanan.php
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tabel_pemesanan...')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('tabel_pemesanan', Array, true)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1151): view('tabel_pemesanan', Array)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->tabel_pemesanan()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}

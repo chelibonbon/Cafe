@@ -1,0 +1,113 @@
+ERROR - 2025-03-17 00:05:13 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2025-03-17 07:30:12 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\web...', 338, Array)
+#1 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(83): App\Models\M_kasir->insertLog('chelsica succes...')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-17 07:30:28 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\web...', 338, Array)
+#1 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(83): App\Models\M_kasir->insertLog('chelsica succes...')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-17 07:30:36 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\web...', 338, Array)
+#1 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(83): App\Models\M_kasir->insertLog('chelsica succes...')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-17 07:31:08 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\web...', 338, Array)
+#1 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(338): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(83): App\Models\M_kasir->insertLog('chelsica succes...')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-17 06:11:51 --> Too few arguments to function App\Controllers\Home::detail_deleted_barang(), 0 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->detail_deleted_barang()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+CRITICAL - 2025-03-17 12:44:53 --> Use of undefined constant APP_TITLE - assumed 'APP_TITLE' (this will throw an Error in a future version of PHP)
+#0 G:\My Drive\web\kasir\kasir\app\Views\header.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'G:\\My Drive\\web...', 17, Array)
+#1 G:\My Drive\web\kasir\kasir\system\View\View.php(210): include('G:\\My Drive\\web...')
+#2 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#4 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(145): view('header')
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#10 {main}
+CRITICAL - 2025-03-17 19:19:00 --> Use of undefined constant APP_LOGO - assumed 'APP_LOGO' (this will throw an Error in a future version of PHP)
+#0 G:\My Drive\web\kasir\kasir\app\Views\menu.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'G:\\My Drive\\web...', 9, Array)
+#1 G:\My Drive\web\kasir\kasir\system\View\View.php(210): include('G:\\My Drive\\web...')
+#2 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#4 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(146): view('menu')
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#10 {main}
+CRITICAL - 2025-03-17 20:09:15 --> syntax error, unexpected '$pengaturan' (T_VARIABLE), expecting ')'
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('menu.php', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(993): view('menu.php')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->pengaturan()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-17 20:10:19 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('menu.php', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(993): view('menu.php')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->pengaturan()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-17 20:10:50 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(210): include()
+#1 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('menu.php', Array, true)
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(993): view('menu.php')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->pengaturan()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-17 20:11:23 --> syntax error, unexpected ')', expecting ';' or ','
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('menu.php', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(993): view('menu.php')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->pengaturan()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}

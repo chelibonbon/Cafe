@@ -1,0 +1,19 @@
+CRITICAL - 2025-02-17 22:27:45 --> Invalid file: auth/login.php
+#0 C:\Users\LENOVO\Videos\kasir\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 C:\Users\LENOVO\Videos\kasir\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 C:\Users\LENOVO\Videos\kasir\app\Controllers\Auth.php(18): view('auth/login')
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(832): App\Controllers\Auth->login()
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#8 {main}
+CRITICAL - 2025-02-17 22:41:26 --> Class 'CodeIgniter\BaseController' not found
+#0 C:\Users\LENOVO\Videos\kasir\system\Router\Router.php(518): include_once()
+#1 C:\Users\LENOVO\Videos\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/login')
+#2 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('auth/login')
+#3 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\LENOVO\Videos\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\LENOVO\Videos\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\LENOVO\Videos\kasir\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#7 {main}

@@ -1,0 +1,66 @@
+CRITICAL - 2024-08-27 04:24:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:37:36 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:39:20 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:41:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:44:10 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:48:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:49:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:54:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:55:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 04:56:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}
+CRITICAL - 2024-08-27 05:02:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\LENOVO\Videos\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\LENOVO...')
+#4 {main}

@@ -1,0 +1,35 @@
+ERROR - 2025-02-25 21:45:14 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-25 21:45:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\web\kasir\kasir\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\web\kasir\kasir\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(15): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(30): App\Models\M_kasir->getWhere('user', Array)
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-02-25 22:39:58 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('011')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-02-25 22:41:19 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(462): view('print_nota', Array)
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('012')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}

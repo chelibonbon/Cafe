@@ -1,0 +1,60 @@
+CRITICAL - 2025-03-11 08:11:22 --> Call to undefined method App\Models\M_kasir::getNamaUser
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(145): CodeIgniter\Model->__call('getNamaUser', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-11 19:20:40 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2025-03-11 19:20:40 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(483): App\Models\M_kasir->tampil_active('barang', 'id_barang', Array, 'id_barang', 'DESC')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-11 19:22:02 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2025-03-11 19:22:02 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(483): App\Models\M_kasir->tampil_active('barang', 'id_barang', Array, 'id_barang', 'DESC')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->tabel_barang()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+CRITICAL - 2025-03-11 20:38:26 --> Too few arguments to function App\Controllers\Home::print_ulang_nota(), 1 passed in G:\My Drive\web\kasir\kasir\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota('81')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+ERROR - 2025-03-11 21:00:07 --> Unknown column 'barang.harga' in 'field list'
+CRITICAL - 2025-03-11 21:00:07 --> Call to a member function getResult() on bool
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(743): App\Models\M_kasir->join2('transaksi', 'nota', 'kasir', 'barang', 'transaksi.nomor...', 'transaksi.id_ka...', 'transaksi.kode_...', Array)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota('81')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
+ERROR - 2025-03-11 21:01:14 --> Unknown column 'barang.harga' in 'field list'
+CRITICAL - 2025-03-11 22:32:16 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, object given, called in G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php on line 20
+#0 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(20): CodeIgniter\Database\BaseBuilder->orderBy(Object(stdClass), 'desc')
+#1 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(636): App\Models\M_kasir->tampil('kasir', Object(stdClass))
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->transaksi()
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#7 {main}
+CRITICAL - 2025-03-11 22:32:48 --> Argument 3 passed to view() must be of the type array, null given, called in G:\My Drive\web\kasir\kasir\app\Controllers\Home.php on line 640
+#0 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(640): view('transaksi', Array, NULL)
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->transaksi()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}

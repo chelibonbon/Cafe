@@ -1,0 +1,316 @@
+CRITICAL - 2025-04-19 01:29:35 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 01:30:38 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 01:32:28 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 01:58:17 --> Invalid file: cetak_all.php
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cetak_all.php')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('cetak_all', Array, true)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1285): view('cetak_all', Array)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->cetak_all()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+ERROR - 2025-04-19 02:22:57 --> Unknown column 'nota.nomor_meja' in 'field list'
+CRITICAL - 2025-04-19 02:22:57 --> Call to a member function getRowArray() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1295): App\Models\M_kasir->getNotaByNomor2('250419-003')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->cetak_nota('250419-003')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+ERROR - 2025-04-19 02:40:36 --> Table 'cafe.transaksi' doesn't exist
+CRITICAL - 2025-04-19 02:40:36 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1625): App\Models\M_kasir->getDetailNota('119')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->print_ulang_nota('119')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-19 02:47:16 --> Invalid argument supplied for foreach()
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Views\print_nota.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\WEB APP DARI...', 115, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(210): include('D:\\WEB APP DARI...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('print_nota', Array, true)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1629): view('print_nota', Array)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->print_nota('119')
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#10 {main}
+CRITICAL - 2025-04-19 02:49:53 --> Call to a member function joinNotaDetail() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->printNota('119')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 02:50:19 --> Call to a member function joinNotaDetail() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->printNota('119')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 02:50:24 --> Call to a member function joinNotaDetail() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->printNota('119')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 02:50:48 --> Call to a member function joinNotaDetail2() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->printNota('119')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+ERROR - 2025-04-19 03:13:16 --> Unknown column 'pemesanan.id_nota' in 'where clause'
+CRITICAL - 2025-04-19 03:13:16 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1627): App\Models\M_kasir->getItemsForNota('119')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->printNota('119')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-19 03:30:21 --> Too few arguments to function App\Controllers\Home::cetak_pemesanan(), 0 passed in D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->cetak_pemesanan()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 03:31:10 --> Too few arguments to function App\Controllers\Home::cetak_pemesanan(), 0 passed in D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->cetak_pemesanan()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+ERROR - 2025-04-19 16:05:09 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:05:18 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:05:49 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:07:04 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:07:14 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:07:26 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:07:33 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:07:52 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:08:03 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:09:47 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:11:15 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:11:44 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:11:53 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:12:31 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:12:46 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:13:09 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:13:14 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:14:35 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:15:24 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:16:06 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 16:16:49 --> Unknown column 'ip_address' in 'field list'
+CRITICAL - 2025-04-19 04:16:52 --> Call to a member function get_laporan_keuangan() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->excel_keuangan()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 04:17:02 --> Call to a member function get_laporan_keuangan() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->excel_keuangan()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 04:17:48 --> Call to a member function get_laporan_keuangan() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->excel_keuangan()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 04:18:24 --> Call to a member function get_laporan_keuangan() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->excel_keuangan()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+ERROR - 2025-04-19 04:18:39 --> Unknown column 'pemesanan.qty' in 'field list'
+CRITICAL - 2025-04-19 04:18:39 --> Call to a member function getResult() on bool
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1334): App\Models\M_kasir->get_laporan_keuangan('', '')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->excel_keuangan()
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#6 {main}
+CRITICAL - 2025-04-19 04:21:17 --> Invalid file: excel_laporan_keuangan.php
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('excel_laporan_k...')
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Common.php(1089): CodeIgniter\View\View->render('excel_laporan_k...', Array, true)
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(1339): view('excel_laporan_k...', Array)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->excel_keuangan()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-19 04:37:26 --> Call to a member function getLaporanKeuangan() on null
+#0 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->excel_keuangan()
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#5 {main}
+CRITICAL - 2025-04-19 07:05:49 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 07:09:53 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-04-19 19:46:26 --> Unknown column 'ip_address' in 'field list'
+CRITICAL - 2025-04-19 07:51:08 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 07:58:24 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 08:01:26 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 08:01:57 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeCA-8qAAAAABuno2XGm47dVSu9ifnffdncFeJR&amp;response=03AFcWeA5UUE1HlOoKC2siTdlHzX1NscKUNueKa1Xj4xKFNlIRysSrLgHA0g3QnOXqWx17eqPeU_gNMSrSLZlLG0AZ686dFxZOOiTL2IPZwbzu55aScE6HV0QmFW5S_OUnWn3-8ZgWkqI6n_a5kKtnNOw3jrGw8NnJE1JYVRmRDQ9wDbjzMdLhkANF9dfmUUCTcU6pkqqWkLXNiwT17g2xBm2S0Lq1T3I4rJhI9NedUqLOwDqtoVRwbNkisI_8YtCeUpHNdRrouBOFctvnd70JAjlYl-xYUcihhug4Fem5GiR-EHuKj5WLSI9Ztcidb70Zbh3JCAiYJDYz-rsY5QYJZNbvzMLz9BmAxH94ehIlK1ktQS7GkN-sqpyOYxuNgRsctflRK_tbUFlaTbng0x_sJ26hLRH549iM5XyUh3qD4Ay1Sc3zzAJC90LOmtW4qVsVAMPXG9kc2_W9qEGPd4iRY6i98-p_3B5f3QpZLtzppW3MXlrOGw0-mp_VNyU1XtvyKonmi3jP_Eg2ybezCNK3YbvzQBIV4ED1AM2V8XYmIMrEaLENiYaYNSk99vm3ufxoVjMunOjs7zjLtfLuBl0cIYhkPethJKh5simyCPLhMXG4IfEu_GbMJrF6-EUVUplP5Kq354uaU-uGb2JmgtQW221RG0fWpqFUgzhKkek4XkaAnfwYt_X93OgeXlqMBnpDLTxQV_VS2gz5eTfbWat7Cg688AlLDuYredrZA2KF6tsU32XpDg65zkv13AufCRIXzFjMZRiBoxPUPckkInbN5ruy2ngSwg7fm5Nh2b_kUvazDAfHuF1tovW5xiBFc_nQlz-FtpbTPUOlQymSEgaFpLyMhwXTOPnnxJZ9tcnRh6dnycHqa36Lp8JBfXKKO13Tw3AvfKroIyU1R0p-Or0DoWzCKV9yprGWAhy-jmm5PGCVlRMVX9mBkZtsd-aO74Zxl4I6aCqXpqK7HbTywQhs0gFNK3XBrDDOB1eoug4jIgoKS7s6yfvWOf60z9riceMysJB14O2HJodmZqJ5CMpQiZ4zFVOP0va5Jnq14cmwB7T6SlhbtYxdKexZUxTTNP_lf9coIA88HxQKi8tQnbki78iTM0W54YX05BdpCB25DMoVJLLC3oqV6nk_E1fYHMzVfB29LogoNGr15wLwZUcwp-OpHWsASKmYifUWGjCFFfQLFMW78VqtuApjGHAQsa5KMnVUcZ78Rwi9MYJ1K3KlLRWGu-4zaUNUJzGkUh1v46TksMXSdFKZh506PdIL7XcJbXnycUOgmPcwMKieGc1eGjo5YgLpTTCq-sL_P6eWyRu90t0e4hq8eAc_5SXBjlMo-Z-Z4rt4m4SLiBA_yh4HEBuZalfc62AE9LFqba2HGkXcGCGM6NIyMSmABrLW2r6ptH8tUVk3jCGTNg5kL-3fDpJskZsfB9sJhYDAEec8tgmA6Z1a9U-OnuM7F3zA3EGP_GhI3lwTjZNyjgn1CqLL5oKqrkZo5IfKeSwYxHQcBx4qFIQGSR4G2wtQaba3ynDLmCSE5PGYwAarWYuHZEv3Mz8V7mQlfHIEORj92_PI0K3Eyk-u6O-eNVv25agWEUQ7M4LTsxsm9j81Yno_WsVcfYhofhmuEqI6oMW4AsqAZGDJDm-Y5M1DB7WPz0GAu2lXhDxXBIeVS6rEB80z6RM9hLplfMggo2qO1RDlcHfExO_0jhk2v3HlYCG4P-6oPamtRlqY97LjffWliGOIfICWYV9KybWJfEISDOpkD8BuMtJOG3y5XvupVdBJNVvmJXdte3yQRCpEAKupQ0iwNAIwKGsmV633t215_gcyuHGx1dRcXDFDxTmMNJqpUvFMtdy79LUyLSTdGPtRYwlqmD6gHNgPd9NcT9X7KHGkONfIgJx0s3FZGfDCgfOY7W217KhyAUILNVqY8s6O9j6FbkGPDboB3k2Mb8STlCEKbCRvP-ApO2nL_a-Fj4nho2GdNke-STX9Uq81HpbWTOVNA3GxO82HZiqUHf85FW3u6ag6Hx-HqCYWQN0s7X3rHyVcqFaG9dz8rXJLj2SsHpN3-FaMZA9p3D65AqeeiHbFgeVkd1ts_JeXkFOA3Ah-S0NGfAbDUJgq58it4is3maZnibgRCwa6YU0ZG1aN-MRhN2RRaCShuWCsemRGjrfJ3otG9YDG2sOxHy_HTMk5F7ga26OsmFxZE7SLisaVRzyl5Z9rDDM_o1SPrNcQV-nEXv1Cyfs8JJk-EOsk1cXAZSrYkAFu01u-vTC2X6gDhfh7Q5IY_vzlmtDGQFdJaLaVRXpsljJJ66gxlGkp3bvPbje7N1bFnNWwmVSCveYHNw): failed to open stream: A socket operation was attempted to an unreachable host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}
+CRITICAL - 2025-04-19 08:02:00 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}
+CRITICAL - 2025-04-19 08:02:03 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}
+ERROR - 2025-04-19 20:25:21 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:25:26 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:28:16 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:34:21 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:34:21 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:34:36 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:38:59 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:38:59 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:39:02 --> Unknown column 'ip_address' in 'field list'
+ERROR - 2025-04-19 20:49:19 --> Unknown column 'ip_address' in 'field list'
+CRITICAL - 2025-04-19 09:09:23 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 09:10:31 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 09:11:37 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 09:12:37 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 09:13:30 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeCA-8qAAAAABuno2XGm47dVSu9ifnffdncFeJR&amp;response=03AFcWeA6osh86gVryc6ZB0QZFyiPN7sPSscloS26YOFvxn3J5mxrYqxDsWme6vZ7dEbWN1j6mtvf6mZ7oQBQbWnKUcoDts786F-08rXtdUlSP5wyUFQBTOT-8AIPiSqXOusTurLQPc2FWyYM5lQCDNrXgXT_K4K5WsK0h-cThSC3rKWl0_pYG7s3qRie5CIL7HH75W-cO-oNM8NXTp-GjdiXSk4ZzyjQbOG10KalNjPqK4jsVrH_CnMHPAA601kubbLntiV4l-Qpd8OnPmKjk2nrCTpUPaZxwcetlBpWtq2j4rQDy27yT2HtEpXE6SlVfJHAkzro0E8LmKMVHT8tIcovkYWpaeD_EloRuMZgKy1uIx-eFpAZzpIC-f9IvkBstlbEPoJwxj3gpBpB1pjquSybrvuGvBfNJxiiynmlj37fgNzWXusQADJ4aNj6k9XbZGkZM6uJRs6aJ_RzfaGGOGCL3d5CVhVzJLEGusM9vYN0DCPr4P8DLGjKzL_fKrkiewY88HxrVjcme3oO0jDOMqjp2W14mbHqDuEr3ARlDO5otMX8A9nu795Ple-8gQ0cgsgKrJF_CiN_Z3vTUhSGWGxHfLr1k-XdsesKnqleL7XE5OJwS4GG4QcLpsBDNDsFFCjnpIJ0wks1Ww7LVhLKMrJvJ-wT17o3XfHDyeVz-uumSzkYjsE_WIqZvtIYG1BWrMzdt3x09dp-BQmIfzWzaR9aogCCDr7szFLKl-cbrM8WNO-_JBAqTWvJYeRxa6MJhAsBLJfMFexVPpwFq2BXZxirXpD-B1QtViW_mAgO5_1G_zDRXS8xAUUiV4B8Pfx1uaK6JFU0TLPlVzcqLV_JDflYmfvupo_WyittDJFIP-bgXistU9pfAC7SOCucyc8GKCFGpK-n_TBgUFZSDPsfxK2Zk4_dMhYrqx35NB2N8-nTTc2RFPt-0Ool_LisVZcENNfroqlBzwf2CoH98nPDXb6DIzB2KEevN66WaUnCA4OZuNuplx4y8CHlz1uXRrAJ8TCyJ-QtpIcdQOQgfoq9A6V0pBvpBFFuTRsOghxkiQDcemIdp9K5g6ZrrI84iv5j-q7UC-ajfPQE2Z00ZN7HDFl7c0jp6UarIgs0a_DWup3FQKqWGrPctlRXnxlQV4K8e5gXlhIFPWi8YDqnzn4jsHmlTv87QYOjhrHayHL58vnFFiRszb4jiDeprLTeCJiamOW4HwgX02HEW5N4aojDAPSk9CwawfzYTb7mq3xcWvEdwkAiO0SzTLGLRTiUGCqqgb1tOmCMr893e1fMB-tQOFFCJMFfNoXGZDFN5fLNyoALC6AH701UFU8kzG3RlLmmURkfkXmxcZe_WeHiqQP9ZAuZ8NX5FjiPbdVPmb4lKoKEE05Gah5Ty3tbtU8Xt-hEyjdWHP8A3sU7hLDOc4WZmHLw14_HUHiBf88uS_3nagCxZxaYCjllesGEuYLCkDvl40On_B4NIP0MyJZiNA6xoPUN_hRsFx-0pIRZicGidaUK0RVl5XtZegDfgqtg2G0-YL1qOrNm8_Z426PQp6qKI933eGWuPm5rqRGR8-7bSlCUjyfg_7jrNSWclNZNSooSKiJePRYEe5cKsbw2gp6SZTiJru1eTlcboAE7FqKw9OrVWCE_PQRfq7J89KQfERxvzD_6ZU-4lKqMyn5NObJ2XLJCHTm_SpyIcNu8cDdxR4CtyxxVh2fU32aFA4D_TWHAb9poy8xEx6dejygggfM1ulasyTZ54bLBQAbLJ3F5m0Vi1Vq36PlLfrflZScH6oF7IEVM8JHlT4d2xnZgozpT14op9CipTHxvPuvk3wz8w0lvLY-CeRDjy4YmC63IiJ9U5-OK17uqOCBiRbqEF1lppmEsr2Wip7ONieIJzfvTsJ9vZvFJAaG-81iHjSrCil1V6SBCZ4bb66GjbmQjpHqJdTkBUdmuOlzqLtUplVrDXvh0vSWKi1jqfI9Xkk1Mbwf-qY_9SpTU3KIn9rnEK1ejUiWp3zFxqrzhUaK_v3XkQ6khv0cyGcJTALwa-5rJX-PggMgM2E8BjNa5gX4T5wFRxQCM32rP_VyQkpXFE1o3U4PIgkwwVIAIiIWGYcBy7CgXDhZ0wYHHC8GiPb00vjWHxpzhoOpgdyT9k9s2AgPaZYAANlZBnAySeVW4hd_2Ck2GMkFZhLoVP-I-JWhhJK8U42AIJ2n7k3BPKz4VnDAZlOVcXJal5Q5LdeLp_Szs68nOmQw7pO6y3P7JEBnvi_p8jZbd27E15dskVazHUdzV1NC6UQgZYDoJoLztnhHNfxNmH4aNrOwj3lIq5Uoq8z_tfC9X1CChboSNRsA): failed to open stream: A socket operation was attempted to an unreachable host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}
+CRITICAL - 2025-04-19 21:13:35 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 610, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(610): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(134): App\Models\M_kasir->insertLog('Chelsica\r\n succ...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-19 21:13:43 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 610, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(610): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(134): App\Models\M_kasir->insertLog('Chelsica\r\n succ...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-19 21:13:54 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 610, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(610): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(134): App\Models\M_kasir->insertLog('Chelsica\r\n succ...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-19 21:14:30 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 610, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(610): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(134): App\Models\M_kasir->insertLog('Chelsica\r\n succ...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-19 09:21:10 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 09:22:18 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-04-19 22:42:32 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 610, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Models\M_kasir.php(610): file_get_contents('https://api.ipi...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(138): App\Models\M_kasir->insertLog('Failed login at...')
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#8 {main}
+CRITICAL - 2025-04-19 11:00:08 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'D:\\WEB APP DARI...', 81, Array)
+#1 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\app\Controllers\Home.php(81): file_get_contents('https://www.goo...')
+#2 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\WEB APP DARI GOOGLE DRIVE\cafe\cafe\system\Commands\Server\rewrite.php(43): require_once('D:\\WEB APP DARI...')
+#7 {main}

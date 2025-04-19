@@ -1,0 +1,22 @@
+CRITICAL - 2025-03-13 09:18:13 --> file_get_contents(): SSL: An existing connection was forcibly closed by the remote host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\web...', 282, Array)
+#1 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(282): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(125): App\Models\M_kasir->insertLog('chelsica Visite...')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}
+CRITICAL - 2025-03-13 09:36:51 --> file_get_contents(): SSL: An existing connection was forcibly closed by the remote host.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'G:\\My Drive\\web...', 282, Array)
+#1 G:\My Drive\web\kasir\kasir\app\Models\M_kasir.php(282): file_get_contents('https://api.ipi...')
+#2 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(208): App\Models\M_kasir->insertLog('chelsica succes...')
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->simpan_tambah_kasir()
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#8 {main}

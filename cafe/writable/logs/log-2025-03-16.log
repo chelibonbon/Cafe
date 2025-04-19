@@ -1,0 +1,45 @@
+CRITICAL - 2025-03-16 06:14:05 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-03-16 09:10:52 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2025-03-16 09:59:01 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(210): include()
+#1 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(20): view('header')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-16 09:59:34 --> Call to a member function get() on null
+#0 G:\My Drive\web\kasir\kasir\system\View\View.php(210): include()
+#1 G:\My Drive\web\kasir\kasir\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\web\kasir\kasir\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 G:\My Drive\web\kasir\kasir\app\Controllers\Home.php(20): view('header')
+#4 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#5 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#9 {main}
+CRITICAL - 2025-03-16 10:02:16 --> Call to a member function getSettings() on null
+#0 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#5 {main}
+ERROR - 2025-03-16 12:05:53 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-16 12:06:25 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-03-16 12:09:30 --> Duplicate entry 'ffff' for key 'username'
+ERROR - 2025-03-16 12:09:33 --> Duplicate entry 'ffff' for key 'username'
+CRITICAL - 2025-03-16 19:44:20 --> syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\web\kasir\kasir\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/aksi_login')
+#1 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/aksi_login')
+#2 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\web\kasir\kasir\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\web\kasir\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\web\kasir\kasir\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\web...')
+#6 {main}
